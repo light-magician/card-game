@@ -9,3 +9,12 @@ pip install -r requirements.txt
 python3 download_metadata.py # metadata
 python3 download_images.py # images
 ```
+
+card_metadata.json is zipped
+
+```bash
+# turn cardinfo.json.zst → cardinfo.json
+zstd -d cardinfo.json.zst
+# turn cardinfo.json → cardinfo.json.zst using max compression
+zstd -19 cardinfo.json -o cardinfo.json.zst
+```

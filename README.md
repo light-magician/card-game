@@ -1,4 +1,5 @@
-# playground
+# YGO Card DB
 
-for messing around and testing things out
+this project is to make it easy to research decks, combos, ect
+it has a natural language interface
 
